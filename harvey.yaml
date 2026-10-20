@@ -1,78 +1,85 @@
 persona:
-  name: "Harvey"
-  company: "Your Company"
-  role: "Business Development"
-  email: "harvey@yourcompany.com"
-  linkedin: "linkedin.com/in/harvey-yourcompany"
-  tone: "professional, consultative, confident"
+  name: "Vanessa"
+  company: "The Digital Hacks"
+  role: "Head of Growth"
+  email: "hello@thedigitalhacks.com"
+  linkedin: "linkedin.com/company/thedigitalhacks"
+  tone: "direct, expert, data-led — cite real numbers from their site audit"
 
 product:
-  name: "Your Product"
-  description: "Describe what your product does and who it's for"
-  pricing: "Starting at $X/mo"
+  name: "Ecommerce Growth Services"
+  description: "We audit ecommerce stores for conversion, speed, and paid media gaps, then fix them — Shopify, WooCommerce, and BigCommerce specialists."
+  pricing: "Engagements from £1,500/mo"
   key_benefits:
-    - "Benefit 1"
-    - "Benefit 2"
-    - "Benefit 3"
+    - "Free 10-minute site audit with real PageSpeed, SEO, and pixel scores"
+    - "Fix revenue leaks fast — average client sees 20–40% lift in 60 days"
+    - "Done-for-you: no in-house dev or agency hand-holding needed"
   objection_responses:
-    "too expensive": "I understand budget is important. Most of our clients see ROI within 30 days..."
-    "already have a solution": "That makes sense. Curious — what's the one thing you wish it did better?"
-    "not interested": "No worries at all. Mind if I ask what your current approach looks like?"
+    "too expensive": "Totally fair. Our free audit usually surfaces £X in recoverable revenue first — then you decide if it makes sense."
+    "already have an agency": "Good to know. Happy to do a quick second opinion on your Core Web Vitals — no obligation. Most clients come to us after their current agency misses the technical side."
+    "not interested": "No worries. Just out of curiosity — is the site hitting your conversion targets right now?"
+    "not the right time": "Understood. When your next peak season is approaching would be a natural time — want me to drop a note then?"
   offer:
-    primary: ""                    # Main offer (e.g., "Monthly subscription starting at $99/mo")
-    entry: ""                      # Low-commitment entry (e.g., "14-day free trial", "Free audit")
-    goal: "book_call"              # Goal of outreach: book_call, start_trial, get_reply
-    booking_method: "calendar_link" # calendar_link, suggest_times, ask_preference
-    booking_url: ""                # Calendar link URL (if using calendar_link method)
-    meeting_duration: "15 minutes" # How long the call is
-    meeting_owner: ""              # Who takes the meeting (name or role)
+    primary: "Ecommerce growth retainer from £1,500/mo"
+    entry: "Free 10-minute site audit (no strings)"
+    goal: "book_call"
+    booking_method: "calendar_link"
+    booking_url: "https://cal.com/thedigitalhacks/audit"
+    meeting_duration: "15 minutes"
+    meeting_owner: "Vanessa at The Digital Hacks"
 
 icp:
   industries:
-    - "SaaS"
-    - "Marketing Agency"
-  company_size: "10-200 employees"
+    - "Ecommerce"
+    - "Retail"
+    - "Fashion & Apparel"
+    - "Health & Wellness"
+    - "Home & Garden"
+    - "Sports & Outdoors"
+    - "Beauty & Personal Care"
+  company_size: "5-150 employees"
   titles:
-    - "VP Marketing"
-    - "Head of Growth"
-    - "CMO"
-    - "Director of Marketing"
+    - "Owner"
+    - "Founder"
+    - "CEO"
+    - "Managing Director"
+    - "Head of Ecommerce"
+    - "Ecommerce Manager"
+    - "Director"
   geography:
+    - "United Kingdom"
     - "United States"
-  # Roles that signal a company is in-market RIGHT NOW (a company hiring a
-  # "Head of Growth" is shopping for growth tooling). Used for careers-page
-  # scanning and job-board discovery. Empty = fall back to titles above.
-  hiring_signals: []
+  hiring_signals:
+    - "ecommerce manager"
+    - "shopify developer"
+    - "paid media manager"
+    - "performance marketing"
+    - "head of growth"
+    - "conversion rate optimisation"
 
 channels:
   email:
     enabled: true
-    provider: "gmail"          # gmail (recommended) | microsoft | smtp | instantly
-    max_daily_sends: 50
-    require_approval: true      # native providers: emails wait in the Outbox
-    send_to_risky: false        # also send to catch-all domains (off = safest)
-    max_bounce_rate: 0.05       # pause all sending if bounces exceed this
+    provider: "smtp"
+    max_daily_sends: 40
+    require_approval: true
+    send_to_risky: false
+    max_bounce_rate: 0.05
   linkedin:
-    enabled: true
-    max_daily_connections: 20
-    max_daily_messages: 10
+    enabled: false
+    max_daily_connections: 0
+    max_daily_messages: 0
 
 usage:
   max_daily_claude_percent: 80
   heartbeat_interval_minutes: 15
   quiet_hours:
-    start: "22:00"
-    end: "07:00"
-    timezone: "America/New_York"
+    start: "21:00"
+    end: "08:00"
+    timezone: "Europe/London"
 
-# Optional: check each new recipient with Precleared (precleared.dev) before
-# the first cold email: may cold marketing email go to this address under UK
-# PECR, US CAN-SPAM, Canada's CASL, Germany's UWG and France's rules? Any other
-# answer holds the email back, with the reason in the Outbox. One check per
-# address; 10 a day free without a key, 25 with a free key (PRECLEARED_API_KEY
-# in .env). Applies to the native providers (gmail, smtp).
 compliance:
   precleared:
     enabled: false
-    sender_country: ""          # GB or US: where your business is based
-    address_source: "unknown"   # published | bought | scraped | given | unknown
+    sender_country: "GB"
+    address_source: "scraped"

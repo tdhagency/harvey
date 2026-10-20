@@ -62,13 +62,29 @@ When Harvey handles enterprise prospects or multi-stakeholder deals:
 
 ---
 
+## TDH Ecommerce ICP Scoring Boosts
+
+Additional scoring rules for The Digital Hacks' ecommerce focus:
+
+| Signal | Bonus | Why |
+|--------|-------|-----|
+| Mobile PageSpeed < 50 | +2 | Core pain we fix |
+| Missing GA4 or Meta Pixel | +2 | Direct revenue leak |
+| Missing schema / OG tags | +1 | SEO/social quick win |
+| Platform = Shopify or WooCommerce | +1 | Our core stack |
+| No cookie consent banner | +1 | Easy compliance upsell |
+| Hiring ecommerce/growth roles | +2 | Active in-market signal |
+
+**Minimum score to send**: 5/10. Skip if score ≤ 4.
+
 ## Disqualification Signals
 
 Harvey should NOT pursue prospects who:
 - Have fewer employees than the minimum ICP threshold
-- Are in a completely unrelated industry
+- Are in a completely unrelated industry (B2B SaaS, healthcare, finance)
 - Have no discoverable contact information
-- Already use a deeply entrenched competitor (unless switching signals exist)
+- Already have a large in-house digital team (>5 digital roles visible on LinkedIn)
+- Are clearly a large enterprise / household brand (Primark, ASOS, Next, etc.)
 - Explicitly opted out of communications
 
 ## Enrichment Priorities
