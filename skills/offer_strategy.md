@@ -1,144 +1,64 @@
-# Offer Strategy & Closing Mechanics
+# Offer Strategy — The Digital Hacks
 
-## Core Rule: Earn the Right to Ask
+## The Entry Point: Free Audit → Free Consultation
 
-Never lead with an offer. Never pitch in a cold email. The first outreach exists to start a conversation — not to close a deal.
+Never lead with pricing or a pitch. The only ask in cold outreach is a 30-minute consultation — which they get a full site and competitor audit from, free, within 2–3 business days. No cost, no obligation.
 
-Offers are only presented after a prospect has shown genuine interest:
-- They replied positively
-- They asked a question about the product
-- They expressed a pain point you can solve
-- They asked about pricing or next steps
+This is TDH's risk-reversal: they see real data about their own business before spending a penny.
 
-If none of these have happened, you are still in the "earn attention" phase. Stay there.
+## The Three Risk Removers (use these when the prospect hesitates)
 
-## The Offer Ladder
+1. **No contract in month one** — "You evaluate us risk-free. If we haven't earned month two, you walk away owing nothing."
+2. **Free audit first** — "We show you the gaps before any money changes hands."
+3. **Named account manager** — "You're never a ticket in a queue. One person, your account."
 
-Not every interested prospect gets the same offer. Match the offer to their level of engagement:
+## What Happens After the Consultation
 
-| Engagement Level | Signal | Offer |
-|-----------------|--------|-------|
-| **Curious** | Asked a question, clicked a link | Answer their question + soft CTA ("Happy to walk you through it if useful") |
-| **Interested** | Expressed a pain point, asked about features | Share a relevant resource or case study + suggest a quick call |
-| **Ready** | Asked about pricing, timeline, or next steps | Present the specific offer with clear next step |
-| **Urgent** | Has a deadline, lost their current vendor, hiring | Move fast — present the offer immediately with urgency framing |
+1. First consultation (free, 30 min) — prospect presents their goals
+2. TDH delivers free site & competitor audit within 2–3 business days
+3. Final consultation — walk through audit, present the plan
+4. Month one starts, no contract
 
-## Crafting Offers from Product Knowledge
+## Pricing (use only when asked — don't lead with it)
 
-When Harvey learns about a product (via website crawl or manual training), it should identify:
+| Package | Price | What it covers |
+|---------|-------|---------------|
+| Single service (any channel) | from £256/mo | SEO, PPC, social, or paid social |
+| Marketing (SEO + PPC) | from £563/mo | Compounding + immediate leads |
+| Enterprise (3 services) | from £819/mo | Search, paid, social as one funnel |
+| Custom (4+ channels + build) | Quoted | Everything including dev and AI |
 
-1. **Primary offer**: What's the main thing we're selling? (e.g., software subscription, service engagement, audit/assessment)
-2. **Entry offers**: Lower-commitment ways to start (e.g., free trial, pilot program, free audit, strategy session)
-3. **Proof offers**: Ways to demonstrate value before asking for money (e.g., sample report, free assessment, ROI calculator)
+First month no contract on all plans. 10% off annual contracts.
 
-### Offer Construction Framework
+## Services We Sell
 
-For each product, determine:
-- **What they get**: Specific deliverable or access (not vague "value")
-- **What it costs**: Price, time commitment, or "free"
-- **What they risk**: Nothing (free trial), money-back guarantee, or month-to-month
-- **What happens next**: The exact mechanic — click a link, reply with times, fill out a form
+- **SEO & GEO** — rankings + visibility inside AI answers (Google, Perplexity, etc.)
+- **PPC / Google Ads** — management fee only; ad spend paid direct to platform
+- **Organic Social** — up to 6 platforms, custom creative
+- **Paid Social** — Meta, TikTok campaigns
+- **Web Development** — from £1,000 (brochure) to £2,500+ (ecommerce)
+- **AI Integrations** — automation of repetitive funnel work
 
-### Example Offer Structures
+## Objection Responses
 
-**SaaS Product:**
-- Entry: "We have a 14-day free trial — no credit card needed. Want me to set one up for you?"
-- Primary: "Plans start at $X/mo. Want me to walk you through which tier makes sense for your team?"
+**"Too expensive"**
+"Our entry point is £256/mo for a full team — hiring one specialist in-house costs 12× more in year one. And month one is no-contract, so you can test us before committing."
 
-**Service/Agency:**
-- Entry: "We usually start with a free 30-minute audit of your current setup. Worth doing?"
-- Primary: "Our typical engagement starts at $X/mo. I can put together a custom scope if you share more about what you're working with."
+**"We already have an agency"**
+"Completely understand. We do a lot of work fixing what previous agencies missed — happy to do a free audit and show you if there's anything they've overlooked. No obligation."
 
-**Consulting:**
-- Entry: "I put together a quick analysis of [their specific situation]. Want me to send it over?"
-- Primary: "We do this as a [fixed/retainer] engagement. Want to jump on a 20-minute call to see if it makes sense?"
+**"Not the right time"**
+"No problem. Can I send you the free audit now so you have it on hand when the time is right?"
 
-## Closing Mechanics: How to Book
+**"We handle it in-house"**
+"Respect that. Just out of curiosity — are you happy with where the mobile speed and SEO scores are sitting?"
 
-The way you ask someone to take the next step matters. Always confirm with the user which mechanic to use:
+## The Google Premier Partner Badge
 
-### Option 1: Calendar Link
-Best when: High volume, self-service feel, user has a scheduling tool set up.
-```
-"Here's my calendar if you want to grab 15 minutes: [LINK]"
-```
-- Use when the product config includes a `booking_url`
-- Always specify the time commitment ("15 minutes", "quick 20-min call")
-- Never say "book a demo" — say "grab time" or "jump on a call"
+Mention this when prospects care about paid ads credibility. It's verified certification — not self-declared. TDH is certified on the platforms where the client's budget is spent.
 
-### Option 2: Suggest Specific Times
-Best when: More personal feel, higher-touch sale, no calendar tool.
-```
-"Would Thursday at 2pm or Friday morning work for a quick call?"
-```
-- Offer exactly 2-3 options
-- Always include day + time
-- Keep the window narrow (same week)
+## Goal of Every Sequence
 
-### Option 3: Ask for Their Preference
-Best when: Enterprise prospects, respecting their schedule, senior decision-makers.
-```
-"What does your calendar look like this week for a quick 15 minutes?"
-```
-- Deferential but still time-boxed
-- Good for C-suite where you don't want to seem presumptuous
+Get the prospect to book at: https://thedigitalhacks.com/book-a-consultation/
 
-### Option 4: Next Step Without a Call
-Best when: Product sells itself, prospect just needs access.
-```
-"Want me to set up a trial account for you? Takes 2 minutes."
-```
-- For self-serve products with free trials
-- Skip the call if the product can speak for itself
-
-## What Harvey Should Confirm with the User
-
-During setup or training, Harvey needs to know:
-
-1. **What's the primary offer?** (subscription, service, trial, audit, etc.)
-2. **Is there an entry offer?** (free trial, free audit, sample, etc.)
-3. **What's the goal of outreach?** (book a call, start a trial, get a reply, etc.)
-4. **How should meetings be booked?**
-   - Calendar link (provide URL)
-   - Suggest times
-   - Ask for their preference
-5. **Who takes the meeting?** (the user, a sales team member, Harvey books and someone else shows up)
-6. **Any qualification before booking?** (company size, budget, specific need)
-
-These answers go into `harvey.yaml` under the product config and inform how Harvey writes emails and handles replies.
-
-## Offer Timing in the Sequence
-
-### Cold Email Sequence (3 emails)
-- **Email 1**: No offer. Start a conversation. Ask a question. Share an insight.
-- **Email 2**: Soft mention only if relevant. "We help teams like yours [do thing]. Worth a conversation?"
-- **Email 3**: Break-up email. Slightly more direct but still no hard pitch. "If this isn't a priority right now, no worries. But if [pain point] comes up, I'm here."
-
-### Reply Handling (after interest)
-- **First interested reply**: Acknowledge, answer their question, then present the entry offer or suggest a call.
-- **Follow-up after interest**: If they went quiet after showing interest, one gentle nudge. Never more than one.
-- **Ready to book**: Present the specific closing mechanic. Be direct. "Let's get something on the calendar."
-
-## Language Rules
-
-**Do say:**
-- "Worth a quick conversation?"
-- "Happy to walk you through it"
-- "Would it make sense to grab 15 minutes?"
-- "Want me to send over [specific thing]?"
-
-**Never say:**
-- "Book a demo" (sounds like a sales pitch)
-- "Schedule a call with our team" (impersonal)
-- "I'd love to show you" (self-serving framing)
-- "Let me know if you're interested" (passive, no clear next step)
-- "When are you free?" (too open-ended)
-
-## Handling "What's the Price?"
-
-When a prospect asks about pricing before you've qualified them:
-
-1. Give a real answer — never dodge the question
-2. Frame it with context: "Plans start at $X/mo, depending on [variable]. Most teams your size are on the [tier] plan."
-3. Pivot to qualification: "To give you an exact number, it'd help to know [specific question about their needs]."
-4. If there's a free entry offer, lead with that: "There's a free trial so you can see if it fits before committing to anything."
+That is the only conversion. Not a reply. Not a demo request. The booking link.
